@@ -1,0 +1,270 @@
+/*Home section */
+.home-background {
+    background-image: url("images/Home-bg-pc.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.3);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-content {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:sans-serif;
+    margin-left: 30px;
+}
+
+.nav-logo-span {
+    color: red;
+    font-size: 50px;
+    padding: 0px;
+    margin-right: auto;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.home-content {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 97vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.home-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Oswald"
+}
+
+.home-para {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Bree-Serif";
+}
+
+.scroll-text {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 15px;
+    border-width: 2px;
+    border-style:dashed;
+    border-color: rgba(255,255,255,0.3);
+}
+
+.scroll-text:hover {
+    background-color: rgba(52, 47, 47, 0.3);
+}
+
+/*About Me section */
+.about-me-image {
+    @media screen and (max-width: 600px) {
+        width: 100px;
+        height: 200px;
+    }
+    width: 400px;
+    height: 500px;
+    @media screen and (max-width: 600px) { 
+        margin-bottom: 30px;
+    }
+}
+
+.about-me-background {
+    background-color: #000000;
+    padding-top: 100px;   
+    padding-bottom: 100px;
+}
+
+.about-me-text {
+    color: #ffffff;
+    margin: 50px;
+    text-decoration: underline;
+    font-family: "Playfair DC";
+}
+
+.about-me-para {
+    color: #8d8b8b;
+    font-family: "Bree Serif";
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* My Skilla section */
+#sectionMyskills {
+    background-size: cover;
+    background-color: rgba(0,0,0,0.9);
+    height: 100vh;
+    width: 100%;
+    padding: 90px 40px;
+}
+
+.skills-heading {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.skills-icons {
+    font-size: 40px;
+    background-color: rgb(246, 207, 149);
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 24px;
+    margin: 20px auto;
+}
+
+.box {
+    background-color: rgb(111, 95, 95);
+    padding: 0px 0;
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    margin: auto 30px;
+}
+
+.amount-html {
+    width: 220px;
+    background:rgb(17, 59, 3);
+    padding: 10px 0;
+    height: 30px;
+}
+.amount-css {
+    width: 200px;
+    background:rgb(7, 77, 13);
+    padding: 10px 0;
+    height: 30px;
+}
+.amount-js {
+    width: 100px;
+    background:rgb(21, 112, 18);
+    padding: 10px 0;
+    height: 30px;
+}
+.amount-java {
+    width: 120px;
+    background:rgb(11, 99, 3);
+    padding: 10px 0;
+    height: 30px;
+}
+.amount-python {
+    width: 220px;
+    background:rgb(17, 59, 3);
+    padding: 10px 0;
+    height: 30px;
+}
+
+/* My Projects section */
+#sectionMyprojects {
+    background-image: url("images/my-projects-bg-pic.jpg");
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 10px;
+}
+
+.my-projects-heading {
+    color: #fff;
+    font-family: "Times roman new";
+    margin: 23px;
+}
+
+.my-project-card {
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    margin: 10px auto;
+}
+.my-project-card:hover {
+    background-color: rgba(52, 47, 47, 0.3);
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    margin: 25px;
+}
+
+.card-text {
+    color:rgb(222, 184, 135);
+    font-size: 16px;
+}
+
+a {
+    color:rgb(169, 169, 169);
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact me section */
+#sectionContactme {
+    background-color: rgba(0,0,0,0.95);
+    height: 100vh;
+    padding: 100px 10px;
+}
+
+.contact-details-heading {
+    color:#8b8080;
+    font-family: "Bree-serif";
+
+}
+
+.icons {
+    font-size: 30px;
+    margin: 25px 30px;
+    color: rgb(5, 5, 87);
+}
+
+.contact-details {
+    display: inline;
+    margin: 8px;
+    color:rgb(169, 169, 169);
+    font-family: "Bree-serif";
+}
+
+form {
+    margin-left:30px; 
+}
+
+textarea {
+    background-color: rgba(0,0,0,0.8);
+    color: grey;
+    width: 300px;
+    height: 100px;
+}
+
+legend {
+    color:rgb(169, 169, 169);
+}
+
